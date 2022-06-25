@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { HeaderMovies } from "../components/HeaderMovies";
 import { ListMovies } from "../components/ListMovies";
 import { Loader } from "../components/Loader";
@@ -24,7 +24,7 @@ export function Movies() {
     }
 
     return (
-        <Fragment>
+        <>
             <HeaderMovies />
             <main className="main-movies">
                 <div className="main-movies-area">
@@ -47,6 +47,6 @@ export function Movies() {
                     )}
                 </div>
             </main>
-        </Fragment>
+        </>
     );
 }

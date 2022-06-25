@@ -1,11 +1,10 @@
-import { Fragment } from "react";
 import { Header } from "../components/Header";
 import "../styles/global.css";
 import "./Home.css";
 
 export function Home() {
     return (
-        <Fragment>
+        <>
             <Header />
             <main className="main-home">
                 <div className="main-area">
@@ -30,6 +29,6 @@ export function Home() {
                     </div>
                 </div>
             </main>
-        </Fragment>
+        </>
     );
 }
