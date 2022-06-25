@@ -1,0 +1,54 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 90px);
+    background-image: url("../assets/img/theater.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    color: #fff;
+}
+
+.main-title {
+    font-size: 22px;
+}
+
+.main-subtitle {
+    font-size: 14px;
+}
+
+.main-input-area {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-input-area input[type="text"] {
+    width: 400px;
+    height: 51px;
+}
+
+.main-input-area input[type="text"]:focus {
+    outline: none;
+}
+
+.btn-submit {
+    padding: 14px 15px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+}
