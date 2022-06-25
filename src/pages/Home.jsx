@@ -19,7 +19,7 @@ export function Home() {
                         <div>
                             <input
                                 type="text"
-                                placeholder="nome@email.com.br"
+                                placeholder=" nome@email.com.br"
                             />
                         </div>
                         <div>
