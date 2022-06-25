@@ -27,25 +27,24 @@ export function Movies() {
         <>
             <HeaderMovies />
             <main className="main-movies">
-                <div className="main-movies-area">
+                <section className="main-movies-area">
                     <div className="main-movies-title">
                         <h1>Lançamentos</h1>
                     </div>
-                    {loading && (
+                    {loading ? (
                         <div className="main-movies-loader">
                             <div>
                                 <Loader />
                             </div>
                         </div>
-                    )}
-                    {!loading && (
+                    ) : (
                         <div className="main-movies-releases">
                             {movies.map((item, index) => {
                                 return <ListMovies item={item} key={index} />;
                             })}
                         </div>
                     )}
-                </div>
+                </section>
             </main>
         </>
     );

@@ -7,7 +7,7 @@ export function Home() {
         <>
             <Header />
             <main className="main-home">
-                <div className="main-area">
+                <section className="main-area">
                     <div className="main-title">
                         <h1>Confira aqui os lançamentos.</h1>
                     </div>
@@ -27,7 +27,7 @@ export function Home() {
                             </a>
                         </div>
                     </div>
-                </div>
+                </section>
             </main>
         </>
     );
