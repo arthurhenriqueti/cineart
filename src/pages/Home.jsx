@@ -24,7 +24,7 @@ export function Home() {
                         <div>
                             <a href="#" className="btn-submit">
                                 <span>Enviar</span>
-                                <i class="ri-arrow-right-s-line"></i>
+                                <i className="ri-arrow-right-s-line"></i>
                             </a>
                         </div>
                     </div>

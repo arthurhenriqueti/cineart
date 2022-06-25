@@ -9,10 +9,10 @@ export function Footer() {
                     href="https://www.linkedin.com/in/arthurhenriqueti/"
                     target="_blank"
                 >
-                    <i class="ri-linkedin-box-fill"></i>
+                    <i className="ri-linkedin-box-fill"></i>
                 </a>
                 <a href="https://github.com/arthurhenriqueti" target="_blank">
-                    <i class="ri-github-fill"></i>
+                    <i className="ri-github-fill"></i>
                 </a>
             </div>
         </footer>
