@@ -1,4 +1,5 @@
 import { Header } from "../components/Header";
+import { CaretRight } from "phosphor-react";
 import "../styles/global.css";
 import "./Home.css";
 
@@ -23,7 +24,8 @@ export function Home() {
                         </div>
                         <div>
                             <a href="#" className="btn-submit">
-                                Enviar
+                                <span>Enviar</span>
+                                <i class="ri-arrow-right-s-line"></i>
                             </a>
                         </div>
                     </div>
