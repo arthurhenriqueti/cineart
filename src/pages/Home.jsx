@@ -1,5 +1,4 @@
 import { Header } from "../components/Header";
-import { CaretRight } from "phosphor-react";
 import "../styles/global.css";
 import "./Home.css";
 
