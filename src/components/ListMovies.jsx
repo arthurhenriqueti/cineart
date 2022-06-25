@@ -1,4 +1,4 @@
-import "../styles/ListMovies.css";
+import "./ListMovies.css";
 
 export function ListMovies(props) {
     return (

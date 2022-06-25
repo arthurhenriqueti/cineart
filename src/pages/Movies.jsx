@@ -4,7 +4,7 @@ import { ListMovies } from "../components/ListMovies";
 import { Loader } from "../components/Loader";
 import axios from "axios";
 import "../styles/global.css";
-import "../styles/Movies.css";
+import "./Movies.css";
 
 const baseURL = "https://api.b7web.com.br/cinema/";
 

@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Header } from "../components/Header";
 import "../styles/global.css";
-import "../styles/Home.css";
+import "./Home.css";
 
 export function Home() {
     return (
