@@ -1,0 +1,9 @@
+.ListMovies-items img {
+    width: 250px;
+    height: 300px;
+}
+
+.ListMovies-items {
+    width: 250px;
+    color: #fff;
+}

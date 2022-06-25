@@ -7,7 +7,7 @@ export function Home() {
     return (
         <Fragment>
             <Header />
-            <main>
+            <main className="main-home">
                 <div className="main-area">
                     <div className="main-title">
                         <h1>Confira aqui os lançamentos.</h1>
