@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { HeaderMovies } from "../components/HeaderMovies";
 import { ListMovies } from "../components/ListMovies";
 import { Loader } from "../components/Loader";
+import { Footer } from "../components/Footer";
 import axios from "axios";
 import "../styles/global.css";
 import "./Movies.css";
@@ -46,6 +47,7 @@ export function Movies() {
                     )}
                 </section>
             </main>
+            <Footer />
         </>
     );
 }
