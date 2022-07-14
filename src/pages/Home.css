@@ -55,3 +55,18 @@
     position: relative;
     top: 3px;
 }
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 14px;
+    }
+
+    .main-subtitle {
+        font-size: 8px;
+    }
+
+    .main-input-area input[type="text"] {
+        width: 200px;
+        height: 51px;
+    }
+}

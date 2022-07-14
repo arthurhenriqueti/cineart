@@ -20,9 +20,9 @@
 }
 
 .main-movies-releases {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 45px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .main-movies-loader {
@@ -31,4 +31,28 @@
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .main-movies-releases {
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+        padding: 20px;
+    }
+
+    .main-movies-title {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-movies-releases {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .main-movies-releases {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
